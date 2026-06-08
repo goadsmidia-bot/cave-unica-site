@@ -1453,13 +1453,13 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Hero principal — imagem com Ken Burns (fallback enquanto vídeo não carrega)
    O vídeo .hero-video-wrap tem z-index 0 e fica na frente;
-   a .hero-bg mostra aqui abaixo com a foto Unsplash + animação Ken Burns. */
+   a .hero-bg mostra aqui abaixo com a foto real da Cave + animação Ken Burns. */
 .hero-bg {
   background-image:
     radial-gradient(ellipse 100% 65% at 50% 0%, rgba(22,8,5,0.55) 0%, transparent 55%),
     radial-gradient(ellipse 70% 55% at 20% 85%, rgba(77,41,34,0.4) 0%, transparent 50%),
     linear-gradient(180deg, rgba(18,10,8,0.65) 0%, rgba(34,33,43,0.35) 60%, rgba(22,10,8,0.55) 100%),
-    url('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1920&q=85') center/cover no-repeat;
+    url('assets/hero.jpg') center/cover no-repeat;
 }
 
 /* Seção Experiência */
@@ -1467,7 +1467,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 85% 65% at 50% 50%, rgba(77,41,34,0.78) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.68) 0%, rgba(26,13,10,0.72) 50%, rgba(22,21,43,0.68) 100%),
-    url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/cave.jpg') center/cover no-repeat;
 }
 
 /* Sobre — hero */
@@ -1475,7 +1475,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 80% 70% at 30% 55%, rgba(77,41,34,0.8) 0%, transparent 58%),
     linear-gradient(135deg, rgba(42,15,11,0.82) 0%, rgba(34,33,43,0.72) 100%),
-    url('https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/sobre.jpg') center/cover no-repeat;
 }
 
 /* Sobre — seção Conceito */
@@ -1483,7 +1483,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 80% 65% at 50% 50%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.72) 0%, rgba(25,13,10,0.72) 50%, rgba(22,21,43,0.72) 100%),
-    url('https://images.unsplash.com/photo-1547595628-c61a29f496f0?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/cave.jpg') center/cover no-repeat;
 }
 
 /* Localização — hero */
@@ -1491,7 +1491,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 70% 60% at 65% 45%, rgba(77,41,34,0.75) 0%, transparent 58%),
     linear-gradient(135deg, rgba(34,33,43,0.72) 0%, rgba(30,16,24,0.78) 100%),
-    url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/sobre.jpg') center/cover no-repeat;
 }
 
 /* Contato — hero */
@@ -1499,7 +1499,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 90% 72% at 50% 62%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(28,15,12,0.78) 0%, rgba(34,33,43,0.68) 100%),
-    url('https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/hero.jpg') center/cover no-repeat;
 }
 
 /* Chamada final */
@@ -1507,7 +1507,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 85% 72% at 50% 50%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.68) 0%, rgba(25,13,10,0.72) 50%, rgba(22,21,43,0.68) 100%),
-    url('https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    url('assets/cave.jpg') center/cover no-repeat;
 }
 
 /* ── Product card images ──────────────────── */

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caveunica.com.br/sitemap.xml

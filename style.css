@@ -1443,6 +1443,17 @@ em { font-style: italic; color: var(--champagne); }
   .logo-display { max-width: 200px; margin: 0 auto; }
   .address-col  { justify-content: flex-start; }
   .footer-navs  { gap: 2rem; }
+
+  /* Botões centralizados no mobile */
+  .btn-group {
+    justify-content: center;
+  }
+  a.btn:not(.btn-group a) {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ══════════════════════════════════════════

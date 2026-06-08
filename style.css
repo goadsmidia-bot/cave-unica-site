@@ -556,7 +556,7 @@ em { font-style: italic; color: var(--champagne); }
   height: 100%;
   object-fit: cover;
   object-position: center;
-  filter: brightness(0.48) saturate(0.8) contrast(1.1);
+  filter: brightness(0.28) saturate(0.8) contrast(1.1);
 }
 /* Esconde o fallback de imagem quando o vídeo estiver rodando */
 .hero-video-wrap + .hero-bg { opacity: 0; }
@@ -591,10 +591,10 @@ em { font-style: italic; color: var(--champagne); }
   /* Gradiente direcional: mais escuro no topo/base para legibilidade do texto */
   background:
     linear-gradient(180deg,
-      rgba(22,15,12,0.55) 0%,
-      rgba(34,33,43,0.18) 40%,
-      rgba(22,21,43,0.22) 65%,
-      rgba(18,10,8,0.60) 100%
+      rgba(22,15,12,0.78) 0%,
+      rgba(34,33,43,0.52) 40%,
+      rgba(22,21,43,0.56) 65%,
+      rgba(18,10,8,0.82) 100%
     );
 }
 
@@ -1024,7 +1024,9 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — ORIGEM
 ══════════════════════════════════════════ */
 .s-origin {
-  background: var(--night);
+  background-image:
+    linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
+    url('assets/cave.jpg') center/cover no-repeat;
   border-top: 1px solid var(--champ-10);
 }
 .origin-logo-col {
@@ -1077,7 +1079,9 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — TOM DA MARCA
 ══════════════════════════════════════════ */
 .s-brand-tone {
-  background: var(--night);
+  background-image:
+    linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
+    url('assets/hero.jpg') center/cover no-repeat;
   border-top: 1px solid var(--champ-10);
 }
 .s-brand-tone .h2 { max-width: 620px; }
@@ -1456,10 +1460,10 @@ em { font-style: italic; color: var(--champagne); }
    a .hero-bg mostra aqui abaixo com a foto real da Cave + animação Ken Burns. */
 .hero-bg {
   background-image:
-    radial-gradient(ellipse 100% 65% at 50% 0%, rgba(22,8,5,0.55) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 55% at 20% 85%, rgba(77,41,34,0.4) 0%, transparent 50%),
-    linear-gradient(180deg, rgba(18,10,8,0.65) 0%, rgba(34,33,43,0.35) 60%, rgba(22,10,8,0.55) 100%),
-    url('assets/hero.jpg') center/cover no-repeat;
+    radial-gradient(ellipse 100% 65% at 50% 0%, rgba(22,8,5,0.82) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 55% at 20% 85%, rgba(77,41,34,0.65) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(18,10,8,0.88) 0%, rgba(34,33,43,0.68) 60%, rgba(22,10,8,0.85) 100%),
+    url('assets/sobre.jpg') center/cover no-repeat;
 }
 
 /* Seção Experiência */
@@ -1475,7 +1479,7 @@ em { font-style: italic; color: var(--champagne); }
   background-image:
     radial-gradient(ellipse 80% 70% at 30% 55%, rgba(77,41,34,0.8) 0%, transparent 58%),
     linear-gradient(135deg, rgba(42,15,11,0.82) 0%, rgba(34,33,43,0.72) 100%),
-    url('assets/sobre.jpg') center/cover no-repeat;
+    url('assets/hero.jpg') center/cover no-repeat;
 }
 
 /* Sobre — seção Conceito */

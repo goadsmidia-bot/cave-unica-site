@@ -477,100 +477,59 @@
     <!-- ════════════════════════════════════════
          LOCALIZAÇÃO
     ════════════════════════════════════════ -->
-    <section id="localizacao" aria-label="Localização Cave Única">
-
-      <section class="page-hero" aria-labelledby="loc-h">
-        <div class="page-hero-bg ph-loc" aria-hidden="true"></div>
-        <div class="page-hero-overlay" aria-hidden="true"></div>
-        <div class="container page-hero-content">
-          <span class="label light reveal">Onde Estamos</span>
-          <h2 id="loc-h" class="ph-title reveal">
-            Na região do Alphaville,<br>perto de tudo o que importa.
-          </h2>
-          <div class="gold-rule reveal"></div>
-          <p class="ph-text reveal">
-            A CAVE ÚNICA está localizada em uma das regiões mais nobres de Goiânia, próxima a condomínios, residências e pontos de convivência de alto padrão.
-          </p>
-          <p class="ph-text reveal">
-            Um endereço pensado para quem busca conveniência, sofisticação e boas escolhas com fácil acesso.
-          </p>
-          <a href="https://maps.google.com/maps?q=-16.7098737,-49.218586"
-             class="btn btn-gold reveal" target="_blank" rel="noopener noreferrer">
-            Como chegar
-          </a>
-        </div>
-      </section>
-
-      <section class="section s-convenience" aria-labelledby="conv-h">
-        <div class="container">
-          <div class="grid-halves">
-            <div class="col-text">
-              <span class="label reveal">Conveniência Premium</span>
-              <h3 id="conv-h" class="h2 reveal">Estar perto também é parte da experiência.</h3>
-              <div class="gold-rule reveal"></div>
-              <p class="body reveal">
-                A localização da CAVE ÚNICA foi pensada para fazer parte da rotina de quem vive a região do Alphaville.
-              </p>
-              <p class="body reveal">
-                Seja para escolher um vinho para o jantar, buscar uma opção especial de presente, montar uma experiência com charcuteria ou encontrar charutos e destilados selecionados, a CAVE oferece praticidade sem abrir mão de sofisticação.
-              </p>
-            </div>
-            <div class="address-col reveal">
-              <div class="address-card">
-                <div class="address-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                  </svg>
-                </div>
-                <address class="addr-text" itemscope itemtype="https://schema.org/PostalAddress">
-                  <span class="addr-label">Endereço</span>
-                  <span itemprop="streetAddress">R. Piracanjuba, Quadra C5, Lote 12</span>
-                  <span><span itemprop="addressLocality">Alphaville, Goiânia</span> — <span itemprop="addressRegion">GO</span></span>
-                  <span itemprop="postalCode">CEP: 74884-673</span>
-                </address>
-                <a href="https://maps.google.com/maps?q=-16.7098737,-49.218586"
-                   class="btn btn-outline" style="margin-top:1.5rem" target="_blank" rel="noopener noreferrer">
-                  Abrir no Maps
-                </a>
+    <section id="localizacao" class="section s-loc-block" aria-label="Localização Cave Única" aria-labelledby="loc-h">
+      <div class="page-hero-bg ph-loc" aria-hidden="true"></div>
+      <div class="page-hero-overlay" aria-hidden="true"></div>
+      <div class="container s-loc-content">
+        <div class="grid-halves">
+          <div class="col-text">
+            <span class="label light reveal">Onde Estamos</span>
+            <h2 id="loc-h" class="ph-title reveal">
+              Na região do Alphaville,<br>perto de tudo o que importa.
+            </h2>
+            <div class="gold-rule reveal"></div>
+            <p class="ph-text reveal">
+              A CAVE ÚNICA está localizada em uma das regiões mais nobres de Goiânia, próxima a condomínios, residências e pontos de convivência de alto padrão. Um endereço para quem busca conveniência, sofisticação e boas escolhas com fácil acesso.
+            </p>
+          </div>
+          <div class="address-col reveal">
+            <div class="address-card">
+              <div class="address-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
               </div>
+              <address class="addr-text" itemscope itemtype="https://schema.org/PostalAddress">
+                <span class="addr-label">Endereço</span>
+                <span itemprop="streetAddress">R. Piracanjuba, Quadra C5, Lote 12</span>
+                <span><span itemprop="addressLocality">Alphaville, Goiânia</span> — <span itemprop="addressRegion">GO</span></span>
+                <span itemprop="postalCode">CEP: 74884-673</span>
+              </address>
+              <a href="https://maps.google.com/maps?q=-16.7098737,-49.218586"
+                 class="btn btn-gold" style="margin-top:1.5rem" target="_blank" rel="noopener noreferrer">
+                Como chegar
+              </a>
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- MAPA
-           ─────────────────────────────────────────────────────
-           EMBED ATUAL: busca pelo endereço exato no Google Maps
-           (funciona sem API key — abre com pin no local correto)
-
-           PARA PRODUÇÃO — substituir pela URL oficial do negócio:
-             1. Abra o Google Maps e pesquise "Cave Única"
-             2. Clique em "Compartilhar" → "Incorporar mapa"
-             3. Copie o src do iframe gerado e cole aqui
-           Isso vincula o mapa diretamente ao perfil do Google Meu Negócio.
-           ─────────────────────────────────────────────────────
-      -->
+      </div>
       <div class="map-wrap" aria-label="Mapa de localização Cave Única — R. Piracanjuba, Quadra C5, Lote 12, Alphaville, Goiânia">
         <iframe
           src="https://maps.google.com/maps?q=-16.7098737,-49.218586&output=embed&z=18&hl=pt-BR"
           width="100%"
-          height="440"
+          height="400"
           style="border:0;"
           allowfullscreen
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           title="Localização Cave Única — R. Piracanjuba, Quadra C5, Lote 12, Alphaville, Goiânia">
         </iframe>
-        <!-- Fallback caso o iframe seja bloqueado -->
         <noscript>
-          <a href="https://maps.google.com/maps?q=-16.7098737,-49.218586,+74884-673"
-             target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.google.com/maps?q=-16.7098737,-49.218586" target="_blank" rel="noopener noreferrer">
             Ver no Google Maps
           </a>
         </noscript>
       </div>
-
-
     </section><!-- /localizacao -->
 
     <!-- ════════════════════════════════════════

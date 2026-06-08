@@ -556,7 +556,7 @@ em { font-style: italic; color: var(--champagne); }
   height: 100%;
   object-fit: cover;
   object-position: center;
-  filter: brightness(0.28) saturate(0.8) contrast(1.1);
+  filter: brightness(0.18) saturate(0.7) contrast(1.1);
 }
 /* Esconde o fallback de imagem quando o vídeo estiver rodando */
 .hero-video-wrap + .hero-bg { opacity: 0; }
@@ -1024,7 +1024,7 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — ORIGEM
 ══════════════════════════════════════════ */
 .s-origin {
-  background-image:
+  background:
     linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
     url('assets/cave.jpg') center/cover no-repeat;
   border-top: 1px solid var(--champ-10);
@@ -1079,7 +1079,7 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — TOM DA MARCA
 ══════════════════════════════════════════ */
 .s-brand-tone {
-  background-image:
+  background:
     linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
     url('assets/hero.jpg') center/cover no-repeat;
   border-top: 1px solid var(--champ-10);
@@ -1459,16 +1459,16 @@ em { font-style: italic; color: var(--champagne); }
    O vídeo .hero-video-wrap tem z-index 0 e fica na frente;
    a .hero-bg mostra aqui abaixo com a foto real da Cave + animação Ken Burns. */
 .hero-bg {
-  background-image:
-    radial-gradient(ellipse 100% 65% at 50% 0%, rgba(22,8,5,0.82) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 55% at 20% 85%, rgba(77,41,34,0.65) 0%, transparent 50%),
-    linear-gradient(180deg, rgba(18,10,8,0.88) 0%, rgba(34,33,43,0.68) 60%, rgba(22,10,8,0.85) 100%),
+  background:
+    radial-gradient(ellipse 100% 65% at 50% 0%, rgba(10,4,2,0.90) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 55% at 20% 85%, rgba(50,25,18,0.75) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(8,4,2,0.92) 0%, rgba(20,19,28,0.80) 60%, rgba(8,4,2,0.92) 100%),
     url('assets/sobre.jpg') center/cover no-repeat;
 }
 
 /* Seção Experiência */
 .s-experience-bg {
-  background-image:
+  background:
     radial-gradient(ellipse 85% 65% at 50% 50%, rgba(77,41,34,0.78) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.68) 0%, rgba(26,13,10,0.72) 50%, rgba(22,21,43,0.68) 100%),
     url('assets/cave.jpg') center/cover no-repeat;
@@ -1476,7 +1476,7 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Sobre — hero */
 .ph-sobre {
-  background-image:
+  background:
     radial-gradient(ellipse 80% 70% at 30% 55%, rgba(77,41,34,0.8) 0%, transparent 58%),
     linear-gradient(135deg, rgba(42,15,11,0.82) 0%, rgba(34,33,43,0.72) 100%),
     url('assets/hero.jpg') center/cover no-repeat;
@@ -1484,7 +1484,7 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Sobre — seção Conceito */
 .s-concept-bg {
-  background-image:
+  background:
     radial-gradient(ellipse 80% 65% at 50% 50%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.72) 0%, rgba(25,13,10,0.72) 50%, rgba(22,21,43,0.72) 100%),
     url('assets/cave.jpg') center/cover no-repeat;
@@ -1492,7 +1492,7 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Localização — hero */
 .ph-loc {
-  background-image:
+  background:
     radial-gradient(ellipse 70% 60% at 65% 45%, rgba(77,41,34,0.75) 0%, transparent 58%),
     linear-gradient(135deg, rgba(34,33,43,0.72) 0%, rgba(30,16,24,0.78) 100%),
     url('assets/sobre.jpg') center/cover no-repeat;
@@ -1500,7 +1500,7 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Contato — hero */
 .ph-contact {
-  background-image:
+  background:
     radial-gradient(ellipse 90% 72% at 50% 62%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(28,15,12,0.78) 0%, rgba(34,33,43,0.68) 100%),
     url('assets/hero.jpg') center/cover no-repeat;
@@ -1508,7 +1508,7 @@ em { font-style: italic; color: var(--champagne); }
 
 /* Chamada final */
 .s-final-bg {
-  background-image:
+  background:
     radial-gradient(ellipse 85% 72% at 50% 50%, rgba(77,41,34,0.75) 0%, transparent 62%),
     linear-gradient(180deg, rgba(22,21,43,0.68) 0%, rgba(25,13,10,0.72) 50%, rgba(22,21,43,0.68) 100%),
     url('assets/cave.jpg') center/cover no-repeat;

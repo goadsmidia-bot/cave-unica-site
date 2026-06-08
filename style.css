@@ -1024,9 +1024,7 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — ORIGEM
 ══════════════════════════════════════════ */
 .s-origin {
-  background:
-    linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
-    url('assets/cave.jpg') center/cover no-repeat;
+  background: var(--night);
   border-top: 1px solid var(--champ-10);
 }
 .origin-logo-col {
@@ -1079,9 +1077,7 @@ em { font-style: italic; color: var(--champagne); }
    SOBRE — TOM DA MARCA
 ══════════════════════════════════════════ */
 .s-brand-tone {
-  background:
-    linear-gradient(180deg, rgba(22,21,43,0.90) 0%, rgba(22,21,43,0.85) 100%),
-    url('assets/hero.jpg') center/cover no-repeat;
+  background: var(--night);
   border-top: 1px solid var(--champ-10);
 }
 .s-brand-tone .h2 { max-width: 620px; }
@@ -1485,9 +1481,8 @@ em { font-style: italic; color: var(--champagne); }
 /* Sobre — seção Conceito */
 .s-concept-bg {
   background:
-    radial-gradient(ellipse 80% 65% at 50% 50%, rgba(77,41,34,0.75) 0%, transparent 62%),
-    linear-gradient(180deg, rgba(22,21,43,0.72) 0%, rgba(25,13,10,0.72) 50%, rgba(22,21,43,0.72) 100%),
-    url('assets/cave.jpg') center/cover no-repeat;
+    radial-gradient(ellipse 80% 65% at 50% 50%, rgba(77,41,34,0.5) 0%, transparent 65%),
+    linear-gradient(180deg, var(--night) 0%, #190d0a 50%, var(--night) 100%);
 }
 
 /* Localização — hero */
